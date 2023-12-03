@@ -16,7 +16,15 @@ CREATE TABLE `registros` (
 
 INSERT INTO `usuarios` (`usuario`,`telefone`,`apikey`)
 VALUES
-  ("Lucas Suchy","5551998742477","5376026");
+  ("Lucas Suchy","555198742477","5376026");
+
+INSERT INTO `usuarios` (`usuario`,`telefone`,`apikey`)
+VALUES
+  ("Krishna Eduardo","555198097732","2160075");
+
+INSERT INTO `usuarios` (`usuario`,`telefone`,`apikey`)
+VALUES
+  ("Gabriel Varysco","555185741156","2212690");
 
 select usuario, telefone, apikey from usuarios where usuario = 'Lucas Suchy';
 
